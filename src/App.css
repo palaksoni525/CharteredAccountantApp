@@ -23,9 +23,18 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+body {
+  background: linear-gradient(45deg, #eef7ff, #c0dcf7); /* Adjust the shades as needed */
+  /* You can add more background styling here */
+}
 
 .App-link {
   color: #61dafb;
+}
+ body{
+  background-color: #eef7ff;
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpt4v6AplLidcK9M0Y_XqiTjsEfmWFjRuk72_AatQftSB5FadhqK__4pB8T3HAsAf57Lw&usqp=CAU); 
+  background-size: cover;
 }
 
 @keyframes App-logo-spin {

@@ -1,0 +1,174 @@
+
+/* css file for details page */
+
+
+
+.Details-container{
+    width:100vw;
+    height: 180vh;
+    display :flex;
+    padding:5%;
+}
+.left-section{
+    flex:1
+    
+}
+
+.right-section{
+    display:flex;
+    flex:1;
+    flex-direction: column;
+}
+
+
+.rating-review-container{
+     display:flex;
+     flex-direction: row;
+}
+.second-div {
+    width: 20vmax;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: rgb(48, 48, 48);
+    margin: 2vmax;
+    transition: all 0.5s;
+    padding-bottom: 0.5vmax;
+    box-shadow: rgba(177, 161, 161, 0.24) 0px 3px 8px;
+    background-color: rgb(244, 225, 243);
+    align-items: center;
+  }
+
+  
+  .btn1 {
+    margin:2px;
+    background-color: rgb(140, 188, 230);
+    width:40%;
+    height:10%;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 1rem;
+    border-color: white;
+  }
+ .btn2{
+    margin:2px;
+    width:40%;
+    height:10%;
+    border-radius: 0.5rem;
+    color: rgb(140, 188, 230);
+    border-color: rgb(140, 188, 230);
+    background-color: white;
+    font-size: 1rem;
+ }
+ .third-div{
+    background-color: white;
+    text-wrap:balance;
+    width:50%;
+    height:20%;
+    box-shadow: rgba(177, 161, 161, 0.24) 0px 3px 8px;
+    padding:10px;
+    text-align: center;
+    margin-top: 5%;
+    border-radius: 0.5rem;
+    margin: 2vmax;
+ }
+ .image{ 
+
+    width:30%;
+    height:70%;
+    border-radius: 0.5re
+ }
+ .info{
+   
+    width:60%;
+    height:50%;
+    box-shadow: rgba(177, 161, 161, 0.24) 0px 3px 8px;
+    margin-top:80%;
+    padding:2%;
+    background-color: white;
+    border-radius: 0.5rem;
+
+ }
+ .top{
+    display:flex;
+    flex-direction: row;
+    background-color: rgb(246, 246, 246);
+
+ }
+ .top > div{
+    margin-left:3rem;
+ }
+ 
+
+ .grey-text{
+    color:rgb(72, 70, 70)
+ }
+ .end{ 
+    display:flex
+
+ }
+.Recommentation-container{
+    margin:auto;
+    width:80%;
+    height:50%;
+    align-items: center;
+    justify-content: center;
+     margin-left:5%;
+     background-color:white;
+    box-shadow: rgba(177, 161, 161, 0.24) 0px 3px 8px;
+   text-align: center;
+    
+}
+ 
+ .Recommendation-section{
+    width:100%;
+    height:50%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4%;
+    
+ }
+
+ @media screen and (max-width: 600px){
+    .image{
+      height:25%;
+    }
+   .info{
+      width:70%;
+
+      height:auto;
+   }
+   .Details-container{
+      height:50%;
+   }
+   .info > div >div{
+      width:100%;
+      margin-left:-3%;
+      text-align: center;
+      font-size: 0.6rem;
+   }
+   .About{
+      font-size: 0.6rem;
+      text-wrap: balance;
+      text-align: center;
+
+   }
+   .third-div{
+      width:70%;
+      height:20%;
+      text-wrap: balance;
+
+
+   }
+   .third-div >h2{
+   font-size: 1rem;
+   }
+   .third-div >p{
+      font-size: 0.7rem;
+      }
+  
+
+   
+   
+}
+ 

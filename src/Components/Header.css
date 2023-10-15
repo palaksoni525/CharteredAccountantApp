@@ -1,0 +1,364 @@
+/* css file for home */
+.logo{
+    border-radius: 50%;
+    width:30px;
+    height: 30px;
+    
+}
+.Navbar {
+    background-color: rgb(250, 248, 251);
+}
+.root{
+    flex-grow: 1;
+    
+  }
+  .title {
+    flex-grow: 1
+  }
+  .leftLinks {
+    display: flex;
+    margin:auto
+  }
+  .rightLinks {
+    display: flex;
+    align-items: center;
+    margin-right:0%;
+    
+  }
+  .navLink {
+       color:black;
+  }
+  .UpperBody-container{
+     display: flex;
+
+  }
+
+  .left-div {
+    flex: 1; /* Allow the left section to grow and fill available space */
+     /* Set a background color for the left section */
+    padding: 20px; /* Add padding for spacing */
+    text-align: right;
+    margin-top:10vh;
+
+  }
+  
+  .right-div{
+    flex: 1; /* Allow the right section to grow and fill available space */
+    /* Set a background color for the right section */
+    padding: 20px; /* Add padding for spacing */
+  }
+
+  .search-input {
+    width: 60%;
+  }
+
+
+  .right-div{
+    display:flex;
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+  }
+  
+   .image{
+    position: absolute;
+    width: 100px; /* Set the width of the images */
+    height:70%;
+     /* Rotate the images to an inclined position */
+  }
+  
+   .left-img {
+    top:30%;
+    right:5%;
+    width:30%;
+   
+    border-radius: 3rem;
+  }
+  
+  .mid-img {
+    
+    right: 37%;
+    width:30%;
+    
+    top:20%;
+    border-radius: 3rem;
+  }
+  
+  .right-img{
+    right: 70%;
+    width:30%;
+    
+    top:30%;
+    border-radius: 3rem;
+    
+  }
+  .image:hover {
+    box-shadow: 0 0 5px rgba(169, 157, 157, 0.26);
+  
+    transform: translateY(-1vmax);
+  }
+
+  .Mid-container{
+      text-align: center;
+      width: 100vw;
+      height: 100vh;
+  }
+  .purple-text{
+    color:rgb(167, 91, 238)
+  }
+  .card-container {
+    display: flex;
+    margin: 2vmax auto;
+    width: 80vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+    
+  }
+  .card {
+    width: 20vmax;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: rgb(48, 48, 48);
+    margin: 2vmax;
+    transition: all 0.5s;
+    padding-bottom: 0.5vmax;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color:white;
+    align-items: center;
+  }
+  .lower-div{
+    width:80%;
+    height:60%;
+    background-color: rgb(217, 237, 239);
+    border-radius: 0.5rem;
+    display: flex;
+    padding :0;
+    top:5px
+    
+    
+  }
+
+  .left-section{
+     flex:0.4
+  }
+
+  .right-section{
+flex:0.6
+  }
+  .Blue-text{
+    color:rgb(86, 183, 239)
+  }
+  .pink-text{
+    color:pink
+  }
+  .card:hover {
+    box-shadow: 0 0 5px rgba(15, 15, 15, 0.26);
+  
+    transform: translateY(-1vmax);
+  }
+  .message {
+    font-size: 16px;
+    margin-top:-20px;
+    margin-left: -20vw;
+    text-wrap:balance;
+    
+  }
+
+  .BottomBody{
+    display:flex;
+    height:100vh;
+    width:100vw;
+    margin-top:20vh;
+    margin-left:10%;
+    padding :10px;
+    
+  }
+      
+  .lower-section{
+    display: flex;
+    margin: 2vmax auto;
+    width: 40vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width :0.4;
+    
+
+  }
+
+  .inner-section{
+
+    width:30%;
+    height:20vh;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: rgb(48, 48, 48);
+    margin: 2vmax;
+    transition: all 0.5s;
+    padding-bottom: 0.5vmax;
+    background-color: azure;
+    align-items: center;
+    position: relative;
+    text-align:end;
+    padding:5px;
+    
+  }
+
+
+  .result-name{
+    text-decoration: none;
+    list-style: none;
+    text-align:center;
+    font-size: 1rem;
+    font-family: cursive;
+    margin-top:50% !important;
+
+
+  }
+  .icons{
+        color:rgb(63, 169, 225);
+       font-size: 5px;
+        position: absolute;
+        top: 40%;
+        left:0px;
+        
+        font-size: 4rem  !important;
+       
+
+  }
+  .bottom-img1{
+    
+    border-radius: 70% 10% 70% 30%;
+    width:50%;
+    height:50%;
+    margin-left: 5%;
+    box-shadow: rgba(15, 15, 15, 0.24) 0px 10px 20px;
+
+  }
+  .bottom-img2
+  {
+    border-radius: 40% 20% 70% 20% ;
+    width:50%;
+    height:40%;
+    box-shadow: rgba(15, 15, 15, 0.24) 0px 10px 20px;
+    margin-left:10%;
+    margin-bottom: 5%;
+    margin-top:-5%;
+    
+  }
+  .circle1{
+    width:6%;
+    height:6%;
+    border-radius: 50%;
+    background-color: rgb(135, 135, 150);;
+    margin-top: -100%;
+    margin-left:60%;
+    opacity: 0.3;
+
+
+  }
+  .circle1{
+    width:6%;
+    height:6%;
+    border-radius: 50%;
+    background-color: rgb(135, 135, 150);;
+    margin-top: -100%;
+    margin-left:60%;
+    opacity: 0.3;
+
+
+  }
+  .circle2{
+    width:10%;
+    height:10%;
+    border-radius: 50%;
+    background-color: rgb(147, 11, 189);;
+    margin-top: 00%;
+    margin-left:50%;
+    opacity: 0.3;
+
+
+  }
+  .circle3{
+    width:6%;
+    height:6%;
+    border-radius: 50%;
+    background-color: rgb(135, 135, 150);;
+    margin-top: 0%;
+    margin-left:60%;
+    opacity: 0.3;
+
+
+  }
+  @media screen and (max-width: 600px) {
+    .card > p {
+      font-size: 1.7vmax;
+    }
+  
+    .card {
+      margin: 2vmax;
+      display: block;
+      width:40%
+    }
+  
+    .card > span {
+      font-size: 1.5vmax;
+    }
+    .lower-div{
+      height:50%;
+      margin:auto;
+    }
+    .card > div > span {
+      margin: 0 0.5vmax;
+      font: 300 1vmax "Roboto";
+    }
+    .BottomBody{
+        margin-top:70vh;
+    }
+    .right-div{
+      display: flex;
+      flex-direction: column;
+        
+    }
+    .mid-img{
+       width:50% !important;
+       height: 40% !important;
+       border-radius: 0;
+       margin-right:15% !important;
+    }
+    .left-img{
+      width:50% !important;
+      height: 50% !important;
+      border-radius: 0;
+     
+   }
+   .right-img{
+    width:50% !important;
+    height: 40% !important;
+    margin-top: 70%;
+    margin-right:-20% !important;
+    border-radius: 0;
+ }  
+    .lower-section > p {
+        font-size: 1.7vmax;
+      }
+    
+      .lower-section {
+        display: grid;
+        grid-template-columns:auto auto;
+  
+        
+    }
+
+      .inner-section{
+           width:80%;
+      }
+      .icons{
+        font-size:2rem  !important;
+        top: 80%;
+        left:0px;
+      }
+  }
