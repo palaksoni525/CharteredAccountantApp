@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/palaksoni525/CharteredAccountantApp.git/static/css/main.c0dd5732.css",
+    "main.js": "/palaksoni525/CharteredAccountantApp.git/static/js/main.99aa4da8.js",
+    "static/js/787.051dec88.chunk.js": "/palaksoni525/CharteredAccountantApp.git/static/js/787.051dec88.chunk.js",
+    "index.html": "/palaksoni525/CharteredAccountantApp.git/index.html",
+    "main.c0dd5732.css.map": "/palaksoni525/CharteredAccountantApp.git/static/css/main.c0dd5732.css.map",
+    "main.99aa4da8.js.map": "/palaksoni525/CharteredAccountantApp.git/static/js/main.99aa4da8.js.map",
+    "787.051dec88.chunk.js.map": "/palaksoni525/CharteredAccountantApp.git/static/js/787.051dec88.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0dd5732.css",
+    "static/js/main.99aa4da8.js"
+  ]
+}
